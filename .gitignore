@@ -192,3 +192,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# Streamlit secrets and env
+.env
+.streamlit/secrets.toml
+
+# Ollama and local model files
+*.bin
+*.gguf
+
+# Optional: Ignore your PDF documents (if they're large or private)
+rs_paper/*.pdf
