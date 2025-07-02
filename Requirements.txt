@@ -6,4 +6,4 @@ faiss-cpu
 python-dotenv
 langsmith
 openai
-git+https://github.com/groq/langchain-groq.git@main#egg=langchain-groq
+-e git+https://github.com/groq/langchain-groq.git@main#egg=langchain_groq
