@@ -4,6 +4,6 @@ langchain-core
 langchain-community
 faiss-cpu
 python-dotenv
-langsmith  
-git+https://github.com/groq/langchain-groq.git
-
+langsmith
+openai
+git+https://github.com/groq/langchain-groq.git@main#egg=langchain-groq
