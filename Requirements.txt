@@ -5,4 +5,5 @@ langchain-community
 faiss-cpu
 python-dotenv
 langsmith  
-langchain_groq
+git+https://github.com/groq/langchain-groq.git
+
